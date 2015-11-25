@@ -1,12 +1,12 @@
 {
-  "author": "Jamison Dance <jergason@gmail.com> (http://jamisondance.com/)",
-  "name": "recursive-readdir",
-  "description": "Get an array of all files in a directory and subdirectories.",
+  "author": "Nathan Reed",
+  "name": "recursive-readdir-array",
+  "description": "Get an array of all files in a directory and subdirectories. A fork of Jamison Dance's recursive-readdir.",
   "license": "MIT",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jergason/recursive-readdir.git"
+    "url": "git://github.com/zizther/recursive-readdir.git"
   },
   "main": "./index.js",
   "scripts": {
