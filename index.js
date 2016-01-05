@@ -65,7 +65,7 @@ function readdir(path, ignores, callback) {
             }
           })
         } else {
-          list.push("'" + file + "'")
+          list.push('"' + file + '"')
           pending -= 1
           if (!pending) {
             return callback(null, list)
